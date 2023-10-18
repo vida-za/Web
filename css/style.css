@@ -1,9 +1,39 @@
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: linear-gradient(to right bottom, whitesmoke, 70%, indianred) no-repeat;
+}
+
+.slide-image {
+    border-radius: 300px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.thumbnail img {
+    max-height: 130px;
+    max-width: 300px;
+}
+
+.modal-dialog img {
+    max-height: 150px;
+    max-width: 200px;
+}
+
+.row img {
+    text-align: center;
 }
 
 div {
     color: black;
+}
+
+.lead {
+    color: darkred;
 }
 
 .count-input {
@@ -23,6 +53,10 @@ div {
     width: 100%;
 }
 
+.carousel-indicators li {
+    max-height: 300px;
+}
+
 .carousel-holder {
     margin-bottom: 30px;
 }
@@ -38,7 +72,7 @@ div {
 }
 
 .caption h4 {
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .thumbnail img {
